@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 
+  'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans,
+   'Open Sans', 'Helvetica Neue', sans-serif;
+   -webkit-font-smoothing: antialiased;
+   -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Monaco, Monaco Consolas 'Courier New'
+  monospace;
+}
+
+.searchBar{
+  display: flrx;
+  justify-content: center;
+  gap: 7px;
+  margin-top: 22px;
+}
+
+.searchBar input{
+  width: 400px;
+  padding: 9px;
+  font-size: 22px;
+  border: none;
+  background-color: #e7e7e7;
+  border-radius: 6px;
+}
+.searchBar button{
+  width: 90px;
+  background-color: orange;
+  color: white;
+  border: none;
+  font-size: 20px;
+  border-radius: 6px;
+  cursor: pointer;
+}
+.meals{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 21px;
+  justify-content: center;
+  width: 90%;
+}
